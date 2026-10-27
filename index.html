@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6f3ed" />
+  <title>Little Wisdom — Random Quote Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+
+    <section class="hero" aria-labelledby="page-title">
+      <h1 id="page-title">Words to <em>live by.</em></h1>
+
+      <article class="quote-card" aria-live="polite" aria-busy="false">
+        <div class="quote-card-top">
+          <span class="quote-label"><span class="quote-dot"></span> A THOUGHT FOR YOU</span>
+          <span class="quote-symbol" aria-hidden="true">“</span>
+        </div>
+        <div class="quote-content">
+          <p id="quote-text" class="quote-text">Good things take time. Keep going.</p>
+          <p id="quote-author" class="quote-author">— Unknown</p>
+        </div>
+        <div class="card-bottom">
+          <span id="status" class="status" role="status"></span>
+          <button id="new-quote" class="new-quote" type="button">
+            <span>New quote</span>
+            <span class="button-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </article>
+
+      <p class="gentle-reminder"><span aria-hidden="true">✦</span> Take what you need. Leave the rest.</p>
+    </section>
+
+    <footer class="footer">
+      <span>MADE FOR A MOMENT OF INSPIRATION</span>
+      <span class="footer-divider" aria-hidden="true">·</span>
+      <span>ONE QUOTE AT A TIME</span>
+    </footer>
+  </main>
+</body>
+</html>
